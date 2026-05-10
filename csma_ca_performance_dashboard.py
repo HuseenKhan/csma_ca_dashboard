@@ -362,10 +362,9 @@ st.markdown(
 
 st.markdown(
     """
-    <div class="main-title">📡 CSMA/CA WLAN Hidden Node Simulator</div>
+    <div class="main-title"> CSMA/CA WLAN Simulator</div>
     <div class="subtitle">
-        Interactive dashboard for analyzing CSMA/CA contention, hidden-node impact,
-        access delay, frame errors, and contention window behavior.
+        Interactive dashboard for analyzing MAC mechansim.
     </div>
     """,
     unsafe_allow_html=True
@@ -381,7 +380,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.sidebar.header("⚙️ Simulation Inputs")
+st.sidebar.header(" Simulation Inputs")
 
 num_nodes = st.sidebar.number_input(
     "Number of WLAN Nodes",
@@ -430,7 +429,7 @@ time_slots = st.sidebar.number_input(
     step=1000
 )
 
-run_button = st.sidebar.button("🚀 Run Simulation", use_container_width=True)
+run_button = st.sidebar.button(" Run Simulation", use_container_width=True)
 
 
 if run_button:
@@ -488,7 +487,7 @@ if run_button:
         "Frame Dropped",
     ]
 
-    st.markdown("## 🚫 Hidden Node Performance")
+    st.markdown("##  Hidden Node Performance")
 
     hidden_df = df_statistics[df_statistics["Node Type"] == "Hidden Node"]
 
@@ -513,7 +512,7 @@ if run_button:
             hide_index=True
         )
 
-    st.markdown("## ✅ Normal Node Performance")
+    st.markdown("##  Normal Node Performance")
 
     normal_df = df_statistics[df_statistics["Node Type"] == "Normal Node"]
 
@@ -538,7 +537,7 @@ if run_button:
             hide_index=True
         )
 
-    st.markdown("## 📈 All Performance Graphs")
+    st.markdown("## All Performance Graphs")
 
     graph_metrics = [
         "Successful Transmission",
@@ -568,7 +567,7 @@ if run_button:
 
         st.pyplot(fig)
 
-    st.markdown("## 🪟 CW Frequency Distribution for All Nodes")
+    st.markdown("## CW Frequency Distribution for All Nodes")
 
     all_cw_columns = [
         "CW 31 Frequency",
@@ -590,7 +589,7 @@ if run_button:
 
     st.bar_chart(cw_data)
 
-    st.markdown("## 🧾 Full Per-Node Performance Table")
+    st.markdown("## Full Per-Node Performance Table")
 
     st.dataframe(
         df_statistics[display_columns],
