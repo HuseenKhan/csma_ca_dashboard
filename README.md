@@ -31,3 +31,7 @@ streamlit run csma_ca_performance_dashboard.py
 
 If the dashboard does not open automatically, open:
 http://localhost:8501
+
+# Dashboard Screenshot
+
+![Dashboard](screenshots/dashboard_screenshot.jpg)
