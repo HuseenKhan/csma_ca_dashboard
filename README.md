@@ -106,3 +106,9 @@ Future versions of the simulator will include:
 - Adaptive transmission power control
 - Dynamic carrier sensing threshold adjustment
 - Reinforcement learning based contention management
+
+## Contact
+For enquiries, support, or suggestions, please feel free to contact:
+
+- huseen0207@outlook.com  
+
