@@ -4,7 +4,7 @@ Interactive Streamlit dashboard for simulating CSMA/CA WLAN hidden-node behavior
 
 ---
 
-# 📡 Project Overview
+# Project Overview
 
 This project implements a Python-based CSMA/CA WLAN simulator. The simulator analyzes WLAN MAC-layer performance under different contention window configurations and hidden-node scenarios. The dashboard visualizes network statistics including TXOP, successful transmissions, frame error rate (FER), access delay, and CW frequency distribution.
 
@@ -15,7 +15,7 @@ The project aim to understand:
 - IEEE 802.11 contention analysis
   
 
-# 🛠 Technologies Used
+# Technologies Used
 
 - Python
 - Streamlit
@@ -25,7 +25,7 @@ The project aim to understand:
 
 ---
 
-# 📦 Dependencies
+# Dependencies
 
 Install dependencies using:
 
