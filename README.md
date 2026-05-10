@@ -1,4 +1,4 @@
-# CSMA/CA WLAN Hidden Node Simulator
+# CSMA/CA WLAN Simulator
 
 Interactive Streamlit dashboard for simulating CSMA/CA WLAN hidden-node behavior, contention analysis, collision probability, and contention window dynamics.
 
@@ -15,16 +15,6 @@ The project aim to understand:
 - IEEE 802.11 contention analysis
   
 
-# Technologies Used
-
-- Python
-- Streamlit
-- NumPy
-- Pandas
-- Matplotlib
-
----
-
 # Dependencies
 
 Install dependencies using:
@@ -36,7 +26,7 @@ pip install streamlit numpy pandas matplotlib
 # How to run 
 
 ```bash
-streamlit run csma_ca_dashboard_performance.py
+streamlit run csma_ca_performance_dashboard.py
 ```
 
 If the dashboard does not open automatically, open:
