@@ -39,7 +39,7 @@ http://localhost:8501
 
 ---
 
-# ⚙️ User Input Parameters
+# User Input Parameters
 
 The simulator allows users to configure different WLAN contention and hidden-node scenarios using the Streamlit sidebar inputs.
 
@@ -120,7 +120,7 @@ After collisions:
 
 ---
 
-# 📌 Current Assumptions
+# Current Assumptions
 
 The current simulator assumes:
 
@@ -132,7 +132,7 @@ The current simulator assumes:
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 Future versions of the simulator will include:
 
