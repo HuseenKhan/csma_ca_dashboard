@@ -1,6 +1,6 @@
 # CSMA/CA WLAN Simulator
 
-Interactive Streamlit dashboard for simulating CSMA/CA WLAN hidden-node behavior, contention analysis, collision probability, and contention window dynamics.
+Interactive dashboard for analyzing MAC mechansim.
 
 ---
 
@@ -37,59 +37,29 @@ http://localhost:8501
 ![Dashboard](screenshots/dashboard_screenshot.jpg)
 
 
----
-
 # User Input Parameters
 
-The simulator allows users to configure different WLAN contention and hidden-node scenarios using the Streamlit sidebar inputs.
+  The following input parametrs are required to analyze the performance of CSMA/CA. 
 
 ## Number of WLAN Nodes
 
-Defines the total number of contending WLAN nodes participating in channel access and contention.
-
-Higher numbers increase:
-- channel contention
-- collision probability
-- access delay
-
----
+Defines the total number of contending WLAN nodes 
 
 ## Number of Hidden Nodes
 
-Defines how many nodes behave as hidden nodes.
-
-Hidden nodes:
+Defines how many nodes behave as hidden nodes. Hidden nodes:
 - do not defer when the channel is busy
 - always sense the channel as idle
 - may transmit simultaneously with other nodes
 
-This increases:
-- collisions
-- frame error rate (FER)
-- unfair channel access
-
----
-
 ## Total Simulation Time Slots
 
-Defines the total duration of the simulation in time slots.
-
-Larger simulation times provide:
-- more stable averages
-- better statistical accuracy
-- improved performance evaluation
-
----
+Defines the total duration of the simulation in time slots. Note that Larger simulation times provid better statistical accuracy
 
 ## Frame Transmission Slots
 
 Defines the transmission duration of a frame in time slots.
 
-Currently:
-- all nodes use the same frame transmission duration
-- all transmitted frames have equal size
-
----
 
 ## Minimum Contention Window (CW Min)
 
@@ -97,11 +67,6 @@ Defines the minimum contention window size.
 
 Currently:
 - CW Min is fixed at 31
-
-After successful transmission:
-- the contention window resets to CW Min
-
----
 
 ## Maximum Contention Window (CW Max)
 
@@ -132,7 +97,7 @@ The current simulator assumes:
 
 ---
 
-# Future Improvements
+# Planned Extensions
 
 Future versions of the simulator will include:
 
