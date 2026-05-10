@@ -313,7 +313,7 @@ def run_simulation(num_nodes, hidden_nodes_count, tx_slots, time_slots, cw_min, 
 
 st.set_page_config(
     page_title="CSMA/CA WLAN Hidden Node Dashboard",
-    page_icon="📡",
+    page_icon="",
     layout="wide"
 )
 
@@ -447,7 +447,7 @@ if run_button:
 
     avg = network_average.iloc[0]
 
-    st.markdown("## 📊 Network Average Performance")
+    st.markdown("## Network Average Performance")
 
     col1, col2, col3, col4 = st.columns(4)
 
