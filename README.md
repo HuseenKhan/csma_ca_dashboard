@@ -105,7 +105,7 @@ Future versions of the simulator will include:
 - Variable frame sizes
 - Adaptive transmission power control
 - Dynamic carrier sensing threshold adjustment
-- Reinforcement learning based contention management
+- Reinforcement learning based channel contention management
 
 ## Contact
 For enquiries, support, or suggestions, please feel free to contact:
