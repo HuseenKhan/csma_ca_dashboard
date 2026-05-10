@@ -30,4 +30,14 @@ The project aim to understand:
 Install dependencies using:
 
 ```bash
-pip install -r requirements.txt
+pip install streamlit numpy pandas matplotlib
+```
+
+# How to run 
+
+```bash
+streamlit run csma_ca_dashboard_performance.py
+```
+
+If the dashboard does not open automatically, open:
+http://localhost:8501
